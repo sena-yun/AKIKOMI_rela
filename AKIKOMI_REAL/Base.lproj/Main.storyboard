@@ -176,12 +176,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="pEl-Hz-BIM">
                         <nil key="title"/>
-                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="Dz2-r9-Hzv">
-                            <rect key="frame" x="141.5" y="12" width="131" height="32"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <segmentedControl key="titleView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" id="Dz2-r9-Hzv">
+                            <rect key="frame" x="18" y="12" width="378" height="33"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                             <segments>
-                                <segment title="First"/>
-                                <segment title="Second"/>
+                                <segment title="1"/>
+                                <segment title="2"/>
+                                <segment title="3"/>
                             </segments>
                             <connections>
                                 <action selector="InfoSegmentAction:" destination="paz-o2-zTC" eventType="valueChanged" id="SwJ-OK-eEw"/>
@@ -676,7 +677,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="8BW-4Q-be8"/>
+        <segue reference="jnD-JO-fEa"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="CM1" width="733" height="1071"/>

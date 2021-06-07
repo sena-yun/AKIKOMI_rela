@@ -15,11 +15,23 @@ class InfoViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .black
 
         // Do any additional setup after loading the view.
     }
 
     @IBAction func InfoSegmentAction(_ sender: UISegmentedControl) {
+        if sender.selectedSegmentIndex == 0 {
+            view.backgroundColor = .black
+            
+        }
+        else if sender.selectedSegmentIndex == 1{
+            view.backgroundColor = .red
+            
+        }
+        else if sender.selectedSegmentIndex == 2{
+            view.backgroundColor = .orange
+        }
     }
     
     /*
