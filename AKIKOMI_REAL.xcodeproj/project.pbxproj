@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		33093351263BFD6100E31AF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3309334F263BFD6100E31AF1 /* Main.storyboard */; };
 		33093353263BFD6500E31AF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33093352263BFD6500E31AF1 /* Assets.xcassets */; };
 		33093356263BFD6500E31AF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33093354263BFD6500E31AF1 /* LaunchScreen.storyboard */; };
+		33A1910A265D076800FC614A /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A19109265D076800FC614A /* InfoViewController.swift */; };
 		66242B0576E73E69B4B29864 /* Pods_AKIKOMI_REAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9907A865F32B209F5760A46A /* Pods_AKIKOMI_REAL.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		33093352263BFD6500E31AF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33093355263BFD6500E31AF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33093357263BFD6500E31AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33A19109265D076800FC614A /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		47C0B4BE77A8A0E22B17DC3E /* Pods-AKIKOMI_REAL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKIKOMI_REAL.release.xcconfig"; path = "Target Support Files/Pods-AKIKOMI_REAL/Pods-AKIKOMI_REAL.release.xcconfig"; sourceTree = "<group>"; };
 		58B5DB5A51FCFB66F1AB8D05 /* Pods-AKIKOMI_REAL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKIKOMI_REAL.debug.xcconfig"; path = "Target Support Files/Pods-AKIKOMI_REAL/Pods-AKIKOMI_REAL.debug.xcconfig"; sourceTree = "<group>"; };
 		9907A865F32B209F5760A46A /* Pods_AKIKOMI_REAL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AKIKOMI_REAL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +72,7 @@
 				33093352263BFD6500E31AF1 /* Assets.xcassets */,
 				33093354263BFD6500E31AF1 /* LaunchScreen.storyboard */,
 				33093357263BFD6500E31AF1 /* Info.plist */,
+				33A19109265D076800FC614A /* InfoViewController.swift */,
 			);
 			path = AKIKOMI_REAL;
 			sourceTree = "<group>";
@@ -88,7 +91,6 @@
 				58B5DB5A51FCFB66F1AB8D05 /* Pods-AKIKOMI_REAL.debug.xcconfig */,
 				47C0B4BE77A8A0E22B17DC3E /* Pods-AKIKOMI_REAL.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,6 +210,7 @@
 			files = (
 				3309334E263BFD6100E31AF1 /* ViewController.swift in Sources */,
 				3309334A263BFD6100E31AF1 /* AppDelegate.swift in Sources */,
+				33A1910A265D076800FC614A /* InfoViewController.swift in Sources */,
 				3309334C263BFD6100E31AF1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
