@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1979494F266F69E200CFE7A5 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1979494E266F69E200CFE7A5 /* Library.swift */; };
+		19794951266F6AD300CFE7A5 /* s311.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19794950266F6AD300CFE7A5 /* s311.swift */; };
+		19794953266F6B2200CFE7A5 /* Saganohall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19794952266F6B2200CFE7A5 /* Saganohall.swift */; };
+		19794955266F6B5D00CFE7A5 /* Advanced_Hall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19794954266F6B5D00CFE7A5 /* Advanced_Hall.swift */; };
+		19794957266F6BCC00CFE7A5 /* South_Building.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19794956266F6BCC00CFE7A5 /* South_Building.swift */; };
+		19794959266F6C1800CFE7A5 /* s312.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19794958266F6C1800CFE7A5 /* s312.swift */; };
 		3309334A263BFD6100E31AF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33093349263BFD6100E31AF1 /* AppDelegate.swift */; };
 		3309334C263BFD6100E31AF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3309334B263BFD6100E31AF1 /* SceneDelegate.swift */; };
 		3309334E263BFD6100E31AF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3309334D263BFD6100E31AF1 /* ViewController.swift */; };
@@ -18,6 +24,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1979494E266F69E200CFE7A5 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		19794950266F6AD300CFE7A5 /* s311.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = s311.swift; sourceTree = "<group>"; };
+		19794952266F6B2200CFE7A5 /* Saganohall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saganohall.swift; sourceTree = "<group>"; };
+		19794954266F6B5D00CFE7A5 /* Advanced_Hall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advanced_Hall.swift; sourceTree = "<group>"; };
+		19794956266F6BCC00CFE7A5 /* South_Building.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = South_Building.swift; sourceTree = "<group>"; };
+		19794958266F6C1800CFE7A5 /* s312.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = s312.swift; sourceTree = "<group>"; };
 		33093346263BFD6100E31AF1 /* AKIKOMI_REAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKIKOMI_REAL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33093349263BFD6100E31AF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3309334B263BFD6100E31AF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +85,12 @@
 				33093354263BFD6500E31AF1 /* LaunchScreen.storyboard */,
 				33093357263BFD6500E31AF1 /* Info.plist */,
 				33A19109265D076800FC614A /* InfoViewController.swift */,
+				1979494E266F69E200CFE7A5 /* Library.swift */,
+				19794950266F6AD300CFE7A5 /* s311.swift */,
+				19794952266F6B2200CFE7A5 /* Saganohall.swift */,
+				19794954266F6B5D00CFE7A5 /* Advanced_Hall.swift */,
+				19794956266F6BCC00CFE7A5 /* South_Building.swift */,
+				19794958266F6C1800CFE7A5 /* s312.swift */,
 			);
 			path = AKIKOMI_REAL;
 			sourceTree = "<group>";
@@ -209,9 +227,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				3309334E263BFD6100E31AF1 /* ViewController.swift in Sources */,
+				19794951266F6AD300CFE7A5 /* s311.swift in Sources */,
+				19794957266F6BCC00CFE7A5 /* South_Building.swift in Sources */,
 				3309334A263BFD6100E31AF1 /* AppDelegate.swift in Sources */,
+				1979494F266F69E200CFE7A5 /* Library.swift in Sources */,
+				19794955266F6B5D00CFE7A5 /* Advanced_Hall.swift in Sources */,
+				19794959266F6C1800CFE7A5 /* s312.swift in Sources */,
 				33A1910A265D076800FC614A /* InfoViewController.swift in Sources */,
 				3309334C263BFD6100E31AF1 /* SceneDelegate.swift in Sources */,
+				19794953266F6B2200CFE7A5 /* Saganohall.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

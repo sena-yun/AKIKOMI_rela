@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--s311-->
         <scene sceneID="6wq-d2-3bf">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="UJt-DL-ZiV" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="UJt-DL-ZiV" customClass="s311" customModule="AKIKOMI_REAL" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hFO-KR-tcJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -81,15 +81,18 @@
                         <viewLayoutGuide key="safeArea" id="pXB-28-Wlt"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="s311_circle" destination="1i4-wf-lWq" id="F5O-Ui-fTt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ih3-WA-HoT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-423.1884057971015" y="-745.3125"/>
         </scene>
-        <!--View Controller-->
+        <!--Library-->
         <scene sceneID="kAJ-oF-c5j">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="HmJ-GB-sMa" customClass="ViewController" customModule="AKIKOMI_REAL" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="HmJ-GB-sMa" customClass="Library" customModule="AKIKOMI_REAL" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KmD-L7-Dsv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -100,7 +103,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="value">
-                                        <real key="value" value="50"/>
+                                        <real key="value" value="68"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
@@ -168,6 +171,7 @@
                     </view>
                     <connections>
                         <outlet property="Circular_Progressbar_Library" destination="FvC-v6-Rx0" id="e62-MF-eiu"/>
+                        <outlet property="Library_Circle" destination="FvC-v6-Rx0" id="Xel-AG-3qf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WQM-ol-boQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -207,10 +211,10 @@
             </objects>
             <point key="canvasLocation" x="-2371.0144927536235" y="337.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Saganohall-->
         <scene sceneID="zmJ-Nj-4vr">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="4Dj-dY-4UX" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="4Dj-dY-4UX" customClass="Saganohall" customModule="AKIKOMI_REAL" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="afB-j0-gOG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -355,12 +359,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fZz-Qz-Vhe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1540.5797101449277" y="-23.4375"/>
+            <point key="canvasLocation" x="-1288" y="-79"/>
         </scene>
-        <!--View Controller-->
+        <!--Advanced Hall-->
         <scene sceneID="lJK-yZ-WbE">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="d6D-De-WbO" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="d6D-De-WbO" customClass="Advanced_Hall" customModule="AKIKOMI_REAL" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kyt-2J-7fE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -420,15 +424,18 @@
                         <viewLayoutGuide key="safeArea" id="lKf-NW-RFl"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="Advanced_Hall_Circle" destination="do9-hn-pQl" id="5WB-L1-pzW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ls6-XP-IpD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-671.01449275362324" y="659.59821428571422"/>
         </scene>
-        <!--View Controller-->
+        <!--South Building-->
         <scene sceneID="ELY-qT-iJ5">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="2yk-U4-Uoh" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="2yk-U4-Uoh" customClass="South_Building" customModule="AKIKOMI_REAL" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GPM-vc-b3M">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -462,6 +469,9 @@
                         <viewLayoutGuide key="safeArea" id="ICR-4a-h2o"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="South_Building_Circle" destination="5Ix-9Y-slK" id="X6V-xd-7hL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RIz-Gl-Z71" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -591,10 +601,10 @@
             </objects>
             <point key="canvasLocation" x="-192.75362318840581" y="-23.4375"/>
         </scene>
-        <!--View Controller-->
+        <!--s312-->
         <scene sceneID="6hw-m7-Inn">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="pD9-UU-Ihj" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="pD9-UU-Ihj" customClass="s312" customModule="AKIKOMI_REAL" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NcU-Ph-eIP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -662,6 +672,9 @@
                         <viewLayoutGuide key="safeArea" id="GIC-eZ-03h"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="s312_Circle" destination="2HB-kb-gTX" id="JU6-NX-fH1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Atk-q4-8kr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -687,7 +700,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="8BW-4Q-be8"/>
+        <segue reference="pyn-LB-8HD"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="CM1" width="733" height="1071"/>
