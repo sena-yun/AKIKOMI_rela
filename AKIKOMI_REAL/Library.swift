@@ -19,7 +19,7 @@ class Library: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        initCircle()
+        initCircleLibrary()
     }
     
     @IBOutlet weak var label: UILabel!
@@ -31,7 +31,7 @@ class Library: UIViewController {
         
     }
     
-    func initCircle() {
+    func initCircleLibrary() {
         // init value
         valueSlider.value = 55
         
