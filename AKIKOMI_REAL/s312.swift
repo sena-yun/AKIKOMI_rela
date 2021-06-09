@@ -9,23 +9,30 @@ import UIKit
 import MBCircularProgressBar
 
 class s312: UIViewController {
-    @IBOutlet weak var s312_Circle: MBCircularProgressBarView!
+    
+    @IBOutlet weak var valueSliders312: UISlider!
+    @IBOutlet weak var s312Circle: MBCircularProgressBarView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        initCircles312()
     }
     
 
-    /*
-    // MARK: - Navigation
+    @IBAction func Sliderview(_ sender: UISlider) {
+        
+        s312Circle.value = CGFloat(sender.value)
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
     }
-    */
-
+    
+    func initCircles312() {
+        
+        valueSliders312.value = 55
+        
+        s312Circle.maxValue = CGFloat(valueSliders312.maximumValue)
+        s312Circle.value = CGFloat(valueSliders312.value)
+    }
+  
 }

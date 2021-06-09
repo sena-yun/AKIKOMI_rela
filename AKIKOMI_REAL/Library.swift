@@ -9,10 +9,8 @@ import UIKit
 import MBCircularProgressBar
 
 class Library: UIViewController {
-
-    @IBOutlet var Library_Circle: MBCircularProgressBarView!
     
-    @IBOutlet weak var valueSlider: UISlider!
+    @IBOutlet weak var valueSliderLibrary: UISlider!
     @IBOutlet weak var libraryCircle: MBCircularProgressBarView!
     
     override func viewDidLoad() {
@@ -33,21 +31,11 @@ class Library: UIViewController {
     
     func initCircleLibrary() {
         // init value
-        valueSlider.value = 55
+        valueSliderLibrary.value = 55
         
-        libraryCircle.maxValue = CGFloat(valueSlider.maximumValue)
-        libraryCircle.value = CGFloat(valueSlider.value)
+        libraryCircle.maxValue = CGFloat(valueSliderLibrary.maximumValue)
+        libraryCircle.value = CGFloat(valueSliderLibrary.value)
     
     }
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

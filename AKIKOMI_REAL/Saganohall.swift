@@ -10,21 +10,26 @@ import MBCircularProgressBar
 
 class Saganohall: UIViewController {
 
+    @IBOutlet weak var valueSliderSaganoHall: UISlider!
+    @IBOutlet weak var SaganoHallCircle: MBCircularProgressBarView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        initCircleSaganoHall()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func SliderviewSaganoHall(_ sender: UISlider) {
+        SaganoHallCircle.value = CGFloat(sender.value)
     }
-    */
+    
+    func initCircleSaganoHall() {
+        valueSliderSaganoHall.value = 55
+        
+        SaganoHallCircle.maxValue = CGFloat(valueSliderSaganoHall.maximumValue)
+        SaganoHallCircle.value = CGFloat(valueSliderSaganoHall.value)
+    }
+    
 
 }

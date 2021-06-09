@@ -9,23 +9,27 @@ import UIKit
 import MBCircularProgressBar
 
 class South_Building: UIViewController {
-    @IBOutlet weak var South_Building_Circle: MBCircularProgressBarView!
+    
+    @IBOutlet weak var valueSliderSouthBuilding: UISlider!
+    @IBOutlet weak var SouthBuildingCircle: MBCircularProgressBarView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        initCircleSouthBuilding()
+    }
+
+    @IBAction func SouthBuildingSliderview(_ sender: UISlider) {
+        
+        SouthBuildingCircle.value = CGFloat(sender.value)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func initCircleSouthBuilding() {
+        
+        valueSliderSouthBuilding.value = 55
+        
+        SouthBuildingCircle.maxValue = CGFloat(valueSliderSouthBuilding.maximumValue)
+        SouthBuildingCircle.value = CGFloat(valueSliderSouthBuilding.value)
     }
-    */
-
 }
