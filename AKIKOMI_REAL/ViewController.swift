@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import MBCircularProgressBar
 
 class ViewController: UIViewController {
     
