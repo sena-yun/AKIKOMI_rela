@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		192D2C2026720A1700DBB021 /* HomeNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192D2C1F26720A1700DBB021 /* HomeNavigationView.swift */; };
 		1979494F266F69E200CFE7A5 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1979494E266F69E200CFE7A5 /* Library.swift */; };
 		19794951266F6AD300CFE7A5 /* s311.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19794950266F6AD300CFE7A5 /* s311.swift */; };
 		19794953266F6B2200CFE7A5 /* Saganohall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19794952266F6B2200CFE7A5 /* Saganohall.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		192D2C1F26720A1700DBB021 /* HomeNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationView.swift; sourceTree = "<group>"; };
 		1979494E266F69E200CFE7A5 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
 		19794950266F6AD300CFE7A5 /* s311.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = s311.swift; sourceTree = "<group>"; };
 		19794952266F6B2200CFE7A5 /* Saganohall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saganohall.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				19794954266F6B5D00CFE7A5 /* Advanced_Hall.swift */,
 				19794956266F6BCC00CFE7A5 /* South_Building.swift */,
 				19794958266F6C1800CFE7A5 /* s312.swift */,
+				192D2C1F26720A1700DBB021 /* HomeNavigationView.swift */,
 			);
 			path = AKIKOMI_REAL;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				3309334A263BFD6100E31AF1 /* AppDelegate.swift in Sources */,
 				1979494F266F69E200CFE7A5 /* Library.swift in Sources */,
 				19794955266F6B5D00CFE7A5 /* Advanced_Hall.swift in Sources */,
+				192D2C2026720A1700DBB021 /* HomeNavigationView.swift in Sources */,
 				19794959266F6C1800CFE7A5 /* s312.swift in Sources */,
 				33A1910A265D076800FC614A /* InfoViewController.swift in Sources */,
 				3309334C263BFD6100E31AF1 /* SceneDelegate.swift in Sources */,
