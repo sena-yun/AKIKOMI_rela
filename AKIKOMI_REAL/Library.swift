@@ -15,6 +15,7 @@ class Library: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
 
         // Do any additional setup after loading the view.
         initCircleLibrary()
@@ -37,5 +38,6 @@ class Library: UIViewController {
         libraryCircle.value = CGFloat(valueSliderLibrary.value)
     
     }
+    
 
 }
