@@ -24,8 +24,6 @@ class Library: UIViewController {
     @IBOutlet weak var label: UILabel!
     
     @IBAction func SliderviewLibrary(_ sender: UISlider) {
-        
-        label.text = String(sender.value)
         libraryCircle.value = CGFloat(sender.value)
         
     }
