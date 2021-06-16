@@ -34,7 +34,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="400"/>
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BcJ-cN-S7Y">
-                                                                        <rect key="frame" x="8" y="31" width="100" height="30"/>
+                                                                        <rect key="frame" x="7" y="31" width="101" height="30"/>
                                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                                         <state key="normal" title="Home"/>
@@ -131,14 +131,14 @@
                                                                         </userDefinedRuntimeAttributes>
                                                                     </view>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The occupancy rate of this room" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Adw-Gc-Sak">
-                                                                        <rect key="frame" x="32" y="-26" width="350" height="27"/>
+                                                                        <rect key="frame" x="31" y="-26" width="351" height="27"/>
                                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="More than 70% is dangerous" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V6J-9T-VDh">
-                                                                        <rect key="frame" x="57" y="314" width="300" height="21"/>
+                                                                        <rect key="frame" x="56" y="314" width="301" height="21"/>
                                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                         <nil key="textColor"/>
@@ -155,9 +155,9 @@
                                                                 <rect key="frame" x="0.0" y="750" width="414" height="300"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7WL-G5-0Xf">
-                                                                        <rect key="frame" x="21" y="40" width="370" height="240"/>
+                                                                        <rect key="frame" x="20" y="40" width="370" height="240"/>
                                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                                                        <mutableString key="text">　This room is usually used for sudents in the Faculty of Engineering. There are 3 screens so you can take the same lesson at the same time as the next classroom. After school, students are free to remain and study by themselves. Seats are not fixed, and each student sits freely every morning. The airconditioners are also managed, so you can study in a cool environment in the summer and a warm environment in the winter.</mutableString>
+                                                                        <string key="text">　This room is usually used for sudents in the Faculty of Engineering. There are 3 screens so you can take the same lesson at the same time as the next classroom. After school, students are free to remain and study by themselves. Seats are not fixed, and each student sits freely every morning. The airconditioners are also managed, so you can study in a cool environment in the summer and a warm environment in the winter.</string>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
@@ -337,7 +337,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="400"/>
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VSO-Cz-mGy">
-                                                                        <rect key="frame" x="8" y="31" width="100" height="30"/>
+                                                                        <rect key="frame" x="7" y="31" width="101" height="30"/>
                                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                                         <state key="normal" title="Home"/>
@@ -434,14 +434,14 @@
                                                                         </userDefinedRuntimeAttributes>
                                                                     </view>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The occupancy rate of this room" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lzy-0V-JT3">
-                                                                        <rect key="frame" x="32" y="-26" width="350" height="27"/>
+                                                                        <rect key="frame" x="31" y="-26" width="351" height="27"/>
                                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="More than 70% is dangerous" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jQm-xB-XUQ">
-                                                                        <rect key="frame" x="57" y="314" width="300" height="21"/>
+                                                                        <rect key="frame" x="56" y="314" width="301" height="21"/>
                                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                         <nil key="textColor"/>
@@ -465,9 +465,9 @@
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wsD-0m-qai">
-                                                                        <rect key="frame" x="20" y="25" width="375" height="275"/>
+                                                                        <rect key="frame" x="19" y="25" width="376" height="275"/>
                                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                                                        <mutableString key="text">　This is the library on the 4th floor of the South Building. The library is divided into two levels. There are two projectors on one level and various types of tables and chairs. On the ground floor you are allowed to work on tasks while talking to your friends. Many engineering books are stored on the 2nd floor, and you can borrow them freely if you have a student ID card. In addition, private language is prohibited on the 2nd floor, and many people who want to concentrate on studying use it.</mutableString>
+                                                                        <string key="text">　This is the library on the 4th floor of the South Building. The library is divided into two levels. There are two projectors on one level and various types of tables and chairs. On the ground floor you are allowed to work on tasks while talking to your friends. Many engineering books are stored on the 2nd floor, and you can borrow them freely if you have a student ID card. In addition, private language is prohibited on the 2nd floor, and many people who want to concentrate on studying use it.</string>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
@@ -600,7 +600,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="400"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RuB-9A-4rG">
-                                                        <rect key="frame" x="8" y="31" width="100" height="30"/>
+                                                        <rect key="frame" x="7" y="31" width="101" height="30"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                         <state key="normal" title="Home"/>
@@ -695,14 +695,14 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </view>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The occupancy rate of this room" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qNQ-U8-JAt">
-                                                        <rect key="frame" x="32" y="-26" width="350" height="27"/>
+                                                        <rect key="frame" x="31" y="-26" width="351" height="27"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="More than 70% is dangerous" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ciw-fq-eBq">
-                                                        <rect key="frame" x="57" y="314" width="300" height="21"/>
+                                                        <rect key="frame" x="56" y="314" width="301" height="21"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
@@ -719,7 +719,7 @@
                                                 <rect key="frame" x="0.0" y="750" width="414" height="300"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H5I-U5-ffv">
-                                                        <rect key="frame" x="21" y="40" width="370" height="240"/>
+                                                        <rect key="frame" x="20" y="40" width="370" height="240"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                         <string key="text">This is a hall where meetings such as events and orientations are held. Since one wall is made of window glass, you can overlook the courtyard and feel a sense of openness.</string>
                                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
@@ -758,35 +758,35 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="360 (chairs not included: 500)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kUC-hL-yvH">
-                                                        <rect key="frame" x="156" y="37" width="250" height="23"/>
+                                                        <rect key="frame" x="155" y="37" width="250" height="23"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Desks" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="szI-ja-4ba">
-                                                        <rect key="frame" x="8" y="67" width="150" height="22"/>
+                                                        <rect key="frame" x="7" y="67" width="151" height="22"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="50" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LXl-4S-jaf">
-                                                        <rect key="frame" x="231" y="66" width="100" height="23"/>
+                                                        <rect key="frame" x="230" y="66" width="100" height="23"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Monitors" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9bb-Mu-5KI">
-                                                        <rect key="frame" x="8" y="97" width="150" height="22"/>
+                                                        <rect key="frame" x="7" y="97" width="151" height="22"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DSi-3B-f9m">
-                                                        <rect key="frame" x="231" y="96" width="100" height="23"/>
+                                                        <rect key="frame" x="230" y="96" width="100" height="23"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                                         <nil key="textColor"/>
@@ -969,14 +969,14 @@
                                                                         </userDefinedRuntimeAttributes>
                                                                     </view>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The occupancy rate of this room" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6hJ-pE-QcW">
-                                                                        <rect key="frame" x="32" y="-26" width="350" height="27"/>
+                                                                        <rect key="frame" x="31" y="-26" width="351" height="27"/>
                                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="More than 70% is dangerous" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yxr-mg-057">
-                                                                        <rect key="frame" x="57" y="314" width="300" height="21"/>
+                                                                        <rect key="frame" x="56" y="314" width="301" height="21"/>
                                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                         <nil key="textColor"/>
@@ -993,9 +993,9 @@
                                                                 <rect key="frame" x="0.0" y="750" width="414" height="300"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fxX-Oi-JZt">
-                                                                        <rect key="frame" x="22" y="32" width="370" height="260"/>
+                                                                        <rect key="frame" x="21" y="32" width="370" height="260"/>
                                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                                                        <mutableString key="text">　This room can be freely used by students and faculty members. Many people have lunch during lunch break and self-study after school. There are many desks and chairs here and you can use them freely. At the beginning of each semester, we carry out medical examinations and sell textbooks. In addition, there are two large windows, from which you can overlook the garden, creating a space with a sense of openness.</mutableString>
+                                                                        <string key="text">　This room can be freely used by students and faculty members. Many people have lunch during lunch break and self-study after school. There are many desks and chairs here and you can use them freely. At the beginning of each semester, we carry out medical examinations and sell textbooks. In addition, there are two large windows, from which you can overlook the garden, creating a space with a sense of openness.</string>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
@@ -1139,7 +1139,7 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="400"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vju-Ul-bgV">
-                                                                <rect key="frame" x="8" y="31" width="100" height="30"/>
+                                                                <rect key="frame" x="7" y="31" width="101" height="30"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                                 <state key="normal" title="Home"/>
@@ -1229,14 +1229,14 @@
                                                                 </userDefinedRuntimeAttributes>
                                                             </view>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The occupancy rate of this room" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="03V-Qx-ugc">
-                                                                <rect key="frame" x="32" y="-26" width="350" height="27"/>
+                                                                <rect key="frame" x="31" y="-26" width="351" height="27"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="More than 70% is dangerous" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P1V-M8-aLD">
-                                                                <rect key="frame" x="57" y="314" width="300" height="21"/>
+                                                                <rect key="frame" x="56" y="314" width="301" height="21"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
@@ -1253,9 +1253,9 @@
                                                         <rect key="frame" x="0.0" y="750" width="414" height="300"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8yR-I1-CfI">
-                                                                <rect key="frame" x="22" y="40" width="370" height="250"/>
+                                                                <rect key="frame" x="21" y="40" width="370" height="250"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                                                <mutableString key="text">　This is the South Building of the Uzumasa Campus. Mainly used by engineering students. There are a library, classrooms and many laboratoriess inside, which many students use for classes and projects. In the center of the South Building, a large staircase extends from the 1st floor to the 4th floor, you can overlook the courtyard. Many students have lunch or have free time there.</mutableString>
+                                                                <string key="text">　This is the South Building of the Uzumasa Campus. Mainly used by engineering students. There are a library, classrooms and many laboratoriess inside, which many students use for classes and projects. In the center of the South Building, a large staircase extends from the 1st floor to the 4th floor, you can overlook the courtyard. Many students have lunch or have free time there.</string>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -1278,14 +1278,14 @@
                                                         <rect key="frame" x="0.0" y="1050" width="414" height="300"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="First Floor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ij-F3-bef">
-                                                                <rect key="frame" x="20" y="168" width="100" height="21"/>
+                                                                <rect key="frame" x="19" y="168" width="101" height="21"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oBw-o0-PCs">
-                                                                <rect key="frame" x="128" y="108" width="260" height="140"/>
+                                                                <rect key="frame" x="127" y="108" width="261" height="140"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                 <string key="text">SAGANO Hall / Advanced Hall / School Affairs / International Office / Deans's Office / Engineer's Office / Science Plaza / Machine Workshop / Guard Toom</string>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1317,7 +1317,7 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lecture Room / Learning Commons" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FJP-hs-PSD">
-                                                                <rect key="frame" x="126" y="87" width="260" height="50"/>
+                                                                <rect key="frame" x="125" y="87" width="260" height="50"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
@@ -1331,21 +1331,21 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Library / Faculty Office / Laboratory" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pcK-O7-wEM">
-                                                                <rect key="frame" x="126" y="193" width="260" height="50"/>
+                                                                <rect key="frame" x="125" y="193" width="260" height="50"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Second Floor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UcF-je-ev9">
-                                                                <rect key="frame" x="8" y="0.0" width="120" height="21"/>
+                                                                <rect key="frame" x="7" y="0.0" width="120" height="21"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Computer Workshop / Teaching Laboratory / Lecture Room / Learning Commons / Prayer Room" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8dI-sa-cJm">
-                                                                <rect key="frame" x="126" y="-40" width="260" height="100"/>
+                                                                <rect key="frame" x="125" y="-40" width="260" height="100"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
@@ -1401,50 +1401,129 @@
         <!--Item-->
         <scene sceneID="Dqz-8t-3l4">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="BXg-XY-P0J" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="BXg-XY-P0J" customClass="ViewController" customModule="AKIKOMI_REAL" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LTR-Hg-Boo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R8m-8p-dbO">
-                                <rect key="frame" x="11" y="140" width="392" height="306"/>
+                                <rect key="frame" x="9" y="140" width="392" height="306"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2nw-Ph-um8">
                                         <rect key="frame" x="0.0" y="0.0" width="800" height="306"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CM1" translatesAutoresizingMaskIntoConstraints="NO" id="ijf-JH-9BL">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lvE-55-uVD">
                                                 <rect key="frame" x="0.0" y="0.0" width="200" height="306"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q64-4F-dGt">
+                                                        <rect key="frame" x="8" y="8" width="185" height="290"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <connections>
+                                                            <action selector="URLcm1:" destination="BXg-XY-P0J" eventType="touchUpInside" id="diS-G9-AEk"/>
+                                                        </connections>
+                                                    </button>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="CM1" translatesAutoresizingMaskIntoConstraints="NO" id="ijf-JH-9BL">
+                                                        <rect key="frame" x="0.0" y="0.0" width="200" height="306"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="200" id="Q8e-ti-wKX"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="200" id="Q8e-ti-wKX"/>
+                                                    <constraint firstItem="ijf-JH-9BL" firstAttribute="height" secondItem="lvE-55-uVD" secondAttribute="height" id="R4R-A7-ubc"/>
+                                                    <constraint firstItem="ijf-JH-9BL" firstAttribute="width" secondItem="lvE-55-uVD" secondAttribute="width" id="eYc-WG-LTy"/>
                                                 </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CM2" translatesAutoresizingMaskIntoConstraints="NO" id="Pny-m6-3T6">
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uK8-Je-73w">
                                                 <rect key="frame" x="200" y="0.0" width="200" height="306"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbR-ad-wuo">
+                                                        <rect key="frame" x="8" y="8" width="185" height="290"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <connections>
+                                                            <action selector="URLcm2:" destination="BXg-XY-P0J" eventType="touchUpInside" id="B49-ZO-YFT"/>
+                                                        </connections>
+                                                    </button>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="CM2" translatesAutoresizingMaskIntoConstraints="NO" id="Pny-m6-3T6">
+                                                        <rect key="frame" x="0.0" y="0.0" width="200" height="306"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="200" id="hX8-W2-v2b"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="200" id="hX8-W2-v2b"/>
+                                                    <constraint firstItem="Pny-m6-3T6" firstAttribute="height" secondItem="uK8-Je-73w" secondAttribute="height" id="I5b-5f-Xjx"/>
+                                                    <constraint firstItem="Pny-m6-3T6" firstAttribute="width" secondItem="uK8-Je-73w" secondAttribute="width" id="kpj-AW-AjK"/>
                                                 </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CM3" translatesAutoresizingMaskIntoConstraints="NO" id="n8O-6O-YiI">
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fwj-nj-jIl">
                                                 <rect key="frame" x="400" y="0.0" width="200" height="306"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i3O-AC-vY0">
+                                                        <rect key="frame" x="8" y="8" width="186" height="290"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <connections>
+                                                            <action selector="URLcm2:" destination="BXg-XY-P0J" eventType="touchUpInside" id="dRG-tM-XmC"/>
+                                                            <action selector="URLcm3:" destination="BXg-XY-P0J" eventType="touchUpInside" id="6jI-TJ-Rj8"/>
+                                                        </connections>
+                                                    </button>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="CM3" translatesAutoresizingMaskIntoConstraints="NO" id="33W-MK-fTa">
+                                                        <rect key="frame" x="0.0" y="0.0" width="200" height="306"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="200" id="STt-l5-KDc"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="200" id="o4M-Xv-McK"/>
+                                                    <constraint firstItem="33W-MK-fTa" firstAttribute="height" secondItem="fwj-nj-jIl" secondAttribute="height" id="d3F-eL-8ho"/>
+                                                    <constraint firstItem="33W-MK-fTa" firstAttribute="width" secondItem="fwj-nj-jIl" secondAttribute="width" id="fXR-WF-B7g"/>
                                                 </constraints>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CM4" translatesAutoresizingMaskIntoConstraints="NO" id="FXD-pC-MUs">
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P1h-is-oOD">
                                                 <rect key="frame" x="600" y="0.0" width="200" height="306"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C84-5G-fhP">
+                                                        <rect key="frame" x="8" y="8" width="187" height="290"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <connections>
+                                                            <action selector="URLcm2:" destination="BXg-XY-P0J" eventType="touchUpInside" id="qZc-xg-EIN"/>
+                                                            <action selector="URLcm3:" destination="BXg-XY-P0J" eventType="touchUpInside" id="Vtr-t9-dl3"/>
+                                                            <action selector="URLcm4:" destination="BXg-XY-P0J" eventType="touchUpInside" id="lqz-GV-miw"/>
+                                                        </connections>
+                                                    </button>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="CM4" translatesAutoresizingMaskIntoConstraints="NO" id="crs-vJ-Yib">
+                                                        <rect key="frame" x="0.0" y="0.0" width="200" height="306"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="200" id="sPh-Un-945"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="200" id="q7p-f9-nyt"/>
+                                                    <constraint firstItem="crs-vJ-Yib" firstAttribute="height" secondItem="P1h-is-oOD" secondAttribute="height" id="A07-nr-6jb"/>
+                                                    <constraint firstItem="crs-vJ-Yib" firstAttribute="width" secondItem="P1h-is-oOD" secondAttribute="width" id="Twr-92-Vqo"/>
                                                 </constraints>
-                                            </imageView>
+                                            </view>
                                         </subviews>
                                     </stackView>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="lvE-55-uVD" firstAttribute="width" secondItem="uyl-LI-sfB" secondAttribute="width" multiplier="0.510204" id="1QN-GC-8cJ"/>
+                                    <constraint firstItem="uK8-Je-73w" firstAttribute="width" secondItem="uyl-LI-sfB" secondAttribute="width" multiplier="0.510204" id="Bnp-4o-C11"/>
+                                    <constraint firstItem="uK8-Je-73w" firstAttribute="height" secondItem="uyl-LI-sfB" secondAttribute="height" id="RLc-Iw-e4p"/>
                                     <constraint firstItem="2nw-Ph-um8" firstAttribute="top" secondItem="Ong-Zv-3Ph" secondAttribute="top" id="Y3W-ow-CFf"/>
                                     <constraint firstItem="2nw-Ph-um8" firstAttribute="bottom" secondItem="Ong-Zv-3Ph" secondAttribute="bottom" id="es2-Jd-wL6"/>
                                     <constraint firstItem="2nw-Ph-um8" firstAttribute="trailing" secondItem="Ong-Zv-3Ph" secondAttribute="trailing" id="mMh-Bm-Udk"/>
                                     <constraint firstItem="2nw-Ph-um8" firstAttribute="height" secondItem="uyl-LI-sfB" secondAttribute="height" id="o8h-36-MZ5"/>
+                                    <constraint firstItem="lvE-55-uVD" firstAttribute="height" secondItem="uyl-LI-sfB" secondAttribute="height" id="t84-L5-Lqz"/>
                                     <constraint firstItem="2nw-Ph-um8" firstAttribute="leading" secondItem="Ong-Zv-3Ph" secondAttribute="leading" id="whG-lS-hvS"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="Ong-Zv-3Ph"/>
@@ -1460,7 +1539,7 @@
                                 <size key="shadowOffset" width="5" height="2"/>
                             </label>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O01-94-ahc" customClass="MBCircularProgressBarView">
-                                <rect key="frame" x="20" y="467" width="125" height="125"/>
+                                <rect key="frame" x="19" y="467" width="124" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DkW-Zi-eZs">
@@ -1471,7 +1550,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Library" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E0s-si-gw9">
-                                        <rect key="frame" x="12" y="111" width="100" height="21"/>
+                                        <rect key="frame" x="12" y="111" width="101" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -1498,7 +1577,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9i5-0O-AoC" customClass="MBCircularProgressBarView">
-                                <rect key="frame" x="145" y="467" width="125" height="125"/>
+                                <rect key="frame" x="144" y="467" width="125" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L3F-Gl-Hrs">
@@ -1536,23 +1615,23 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hVB-pB-N7I" customClass="MBCircularProgressBarView">
-                                <rect key="frame" x="20" y="623" width="125" height="125"/>
+                                <rect key="frame" x="19" y="623" width="124" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TUI-7M-d2A">
-                                        <rect key="frame" x="0.0" y="0.0" width="125" height="125"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <connections>
-                                            <segue destination="2yk-U4-Uoh" kind="modal" id="N4w-8v-tOy"/>
-                                        </connections>
-                                    </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="S-Building" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pBb-Is-Gnl">
-                                        <rect key="frame" x="2" y="113" width="120" height="21"/>
+                                        <rect key="frame" x="2" y="113" width="119" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TUI-7M-d2A">
+                                        <rect key="frame" x="0.0" y="-8" width="125" height="125"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <segue destination="2yk-U4-Uoh" kind="modal" id="N4w-8v-tOy"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <userDefinedRuntimeAttributes>
@@ -1574,7 +1653,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ATK-Xe-A3Z" customClass="MBCircularProgressBarView">
-                                <rect key="frame" x="145" y="623" width="125" height="125"/>
+                                <rect key="frame" x="144" y="623" width="125" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pav-DH-MkG">
@@ -1623,7 +1702,7 @@
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ADV Hall" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d0I-rL-hmh">
-                                        <rect key="frame" x="2" y="112" width="120" height="21"/>
+                                        <rect key="frame" x="2" y="112" width="119" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -1696,14 +1775,14 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="News" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6sH-sz-1kg">
-                                <rect key="frame" x="157" y="105" width="100" height="29"/>
+                                <rect key="frame" x="155" y="105" width="101" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" systemColor="systemOrangeColor"/>
                                 <color key="highlightedColor" systemColor="systemOrangeColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Udx-qw-r4x">
-                                <rect key="frame" x="323" y="61" width="46" height="30"/>
+                                <rect key="frame" x="322" y="61" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                             </button>
@@ -1715,7 +1794,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZoS-qj-MZ0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-896" y="-958"/>
+            <point key="canvasLocation" x="-897.10144927536237" y="-958.25892857142856"/>
         </scene>
         <!--s312-->
         <scene sceneID="6hw-m7-Inn">
@@ -1743,7 +1822,7 @@
                                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="400"/>
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Zg-jH-535">
-                                                                        <rect key="frame" x="8" y="31" width="100" height="30"/>
+                                                                        <rect key="frame" x="7" y="31" width="101" height="30"/>
                                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                                         <state key="normal" title="Home"/>
@@ -1840,14 +1919,14 @@
                                                                         </userDefinedRuntimeAttributes>
                                                                     </view>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The occupancy rate of this room" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B2h-Dw-vbM">
-                                                                        <rect key="frame" x="32" y="-26" width="350" height="27"/>
+                                                                        <rect key="frame" x="31" y="-26" width="351" height="27"/>
                                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="More than 70% is dangerous" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dGA-py-m4t">
-                                                                        <rect key="frame" x="57" y="314" width="300" height="21"/>
+                                                                        <rect key="frame" x="56" y="314" width="301" height="21"/>
                                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                         <nil key="textColor"/>
@@ -1864,9 +1943,9 @@
                                                                 <rect key="frame" x="0.0" y="750" width="414" height="300"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wB1-Cu-n8P">
-                                                                        <rect key="frame" x="21" y="40" width="370" height="240"/>
+                                                                        <rect key="frame" x="20" y="40" width="370" height="240"/>
                                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                                                        <mutableString key="text">　This room is usually used for sudents in the Faculty of Engineering. There are 3 screens so you can take the same lesson at the same time as the next classroom. After school, students are free to remain and study by themselves. Seats are not fixed, and each student sits freely every morning. The airconditioners are also managed, so you can study in a cool environment in the summer and a warm environment in the winter.</mutableString>
+                                                                        <string key="text">　This room is usually used for sudents in the Faculty of Engineering. There are 3 screens so you can take the same lesson at the same time as the next classroom. After school, students are free to remain and study by themselves. Seats are not fixed, and each student sits freely every morning. The airconditioners are also managed, so you can study in a cool environment in the summer and a warm environment in the winter.</string>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
@@ -2043,7 +2122,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="IDQ-5i-sBg"/>
+        <segue reference="Hf0-c0-8yR"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="CM1" width="733" height="1071"/>
