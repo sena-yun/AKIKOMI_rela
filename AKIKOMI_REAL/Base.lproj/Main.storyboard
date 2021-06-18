@@ -992,7 +992,7 @@
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JnA-XF-sqZ">
                                                                 <rect key="frame" x="0.0" y="750" width="414" height="300"/>
                                                                 <subviews>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fxX-Oi-JZt">
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fxX-Oi-JZt">
                                                                         <rect key="frame" x="21" y="32" width="370" height="260"/>
                                                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                         <string key="text">　This room can be freely used by students and faculty members. Many people have lunch during lunch break and self-study after school. There are many desks and chairs here and you can use them freely. At the beginning of each semester, we carry out medical examinations and sell textbooks. In addition, there are two large windows, from which you can overlook the garden, creating a space with a sense of openness.</string>
@@ -1403,14 +1403,14 @@
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="nx4-0m-JQx" customClass="ViewController" customModule="AKIKOMI_REAL" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ymT-UT-Mie">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DMI-Zd-yjB">
-                                <rect key="frame" x="0.0" y="44" width="414" height="1156"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RUf-FZ-n7u" userLabel="ControlView">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RUf-FZ-n7u" userLabel="ControlView">
+                                        <rect key="frame" x="1" y="0.0" width="414" height="1500"/>
                                         <subviews>
                                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cp4-VJ-cDL">
                                                 <rect key="frame" x="8" y="88" width="392" height="306"/>
@@ -1585,15 +1585,17 @@
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
+                                                <color key="shadowColor" systemColor="systemGray3Color"/>
+                                                <size key="shadowOffset" width="1" height="2"/>
                                             </label>
                                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jrq-Nk-n2Z">
-                                                <rect key="frame" x="0.0" y="465" width="414" height="180"/>
+                                                <rect key="frame" x="0.0" y="448" width="414" height="180"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HI5-PG-b36" userLabel="ContentView">
                                                         <rect key="frame" x="0.0" y="0.0" width="800" height="180"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yRO-iu-OER" customClass="MBCircularProgressBarView">
-                                                                <rect key="frame" x="36" y="7" width="125" height="173"/>
+                                                                <rect key="frame" x="8" y="4" width="125" height="173"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LXg-ac-we3">
@@ -1647,13 +1649,13 @@
                                                 </constraints>
                                             </scrollView>
                                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AKf-lm-9gV">
-                                                <rect key="frame" x="0.0" y="699" width="414" height="180"/>
+                                                <rect key="frame" x="0.0" y="660" width="414" height="180"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aG6-9E-lic" userLabel="ContentView">
                                                         <rect key="frame" x="0.0" y="0.0" width="800" height="180"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="J77-oB-Tx6" customClass="MBCircularProgressBarView">
-                                                                <rect key="frame" x="41" y="8" width="124" height="173"/>
+                                                                <rect key="frame" x="8" y="4" width="124" height="173"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XyV-x1-vLK">
@@ -1707,13 +1709,13 @@
                                                 </constraints>
                                             </scrollView>
                                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MVj-Iw-CaR">
-                                                <rect key="frame" x="0.0" y="931" width="414" height="180"/>
+                                                <rect key="frame" x="0.0" y="872" width="414" height="180"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hm5-Fo-lWX" userLabel="ContentView">
                                                         <rect key="frame" x="0.0" y="0.0" width="800" height="180"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rgT-Yb-qDg" customClass="MBCircularProgressBarView">
-                                                                <rect key="frame" x="37" y="8" width="124" height="173"/>
+                                                                <rect key="frame" x="8" y="8" width="124" height="173"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fO-he-gfw">
@@ -1751,7 +1753,7 @@
                                                                 </userDefinedRuntimeAttributes>
                                                             </view>
                                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qJD-DD-wFw" customClass="MBCircularProgressBarView">
-                                                                <rect key="frame" x="183" y="8" width="125" height="173"/>
+                                                                <rect key="frame" x="131" y="8" width="125" height="173"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Djz-Yz-iyV">
@@ -1805,34 +1807,41 @@
                                                 </constraints>
                                             </scrollView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Building" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BOE-mO-qJW">
-                                                <rect key="frame" x="8" y="434" width="200" height="30"/>
+                                                <rect key="frame" x="8" y="427" width="200" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Library" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bIr-mT-QyC">
-                                                <rect key="frame" x="33" y="661" width="150" height="30"/>
+                                                <rect key="frame" x="33" y="636" width="150" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Class Room" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2BJ-Vd-vTu">
-                                                <rect key="frame" x="33" y="893" width="150" height="30"/>
+                                                <rect key="frame" x="33" y="848" width="150" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hall" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kzV-EY-b6L">
+                                                <rect key="frame" x="33" y="1060" width="150" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x1I-aX-SNO">
-                                                <rect key="frame" x="0.0" y="1189" width="414" height="180"/>
+                                                <rect key="frame" x="0.0" y="1083" width="414" height="180"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EQt-AK-RlG" userLabel="ContentView">
                                                         <rect key="frame" x="0.0" y="0.0" width="800" height="180"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cYX-2Y-xja" customClass="MBCircularProgressBarView">
-                                                                <rect key="frame" x="37" y="8" width="124" height="173"/>
+                                                                <rect key="frame" x="8" y="8" width="124" height="173"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rge-s6-TB4">
@@ -1870,7 +1879,7 @@
                                                                 </userDefinedRuntimeAttributes>
                                                             </view>
                                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f30-zc-UPj" customClass="MBCircularProgressBarView">
-                                                                <rect key="frame" x="185" y="8" width="125" height="173"/>
+                                                                <rect key="frame" x="133" y="8" width="125" height="173"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XTR-Y9-8HX">
@@ -1923,31 +1932,30 @@
                                                     <constraint firstAttribute="bottom" secondItem="EQt-AK-RlG" secondAttribute="bottom" id="nxw-bG-RxL"/>
                                                 </constraints>
                                             </scrollView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hall" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kzV-EY-b6L">
-                                                <rect key="frame" x="33" y="1151" width="150" height="30"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="Jrq-Nk-n2Z" secondAttribute="trailing" id="1bP-9S-C3L"/>
+                                            <constraint firstItem="x1I-aX-SNO" firstAttribute="top" secondItem="RUf-FZ-n7u" secondAttribute="top" constant="1083" id="8rd-XY-qrS"/>
                                             <constraint firstAttribute="trailing" secondItem="Jrq-Nk-n2Z" secondAttribute="trailing" id="BSc-Xf-GNM"/>
+                                            <constraint firstItem="MVj-Iw-CaR" firstAttribute="leading" secondItem="RUf-FZ-n7u" secondAttribute="leading" id="HAH-Oi-HFI"/>
                                             <constraint firstAttribute="trailing" secondItem="x1I-aX-SNO" secondAttribute="trailing" id="HKV-E2-APF"/>
-                                            <constraint firstItem="AKf-lm-9gV" firstAttribute="top" secondItem="RUf-FZ-n7u" secondAttribute="top" constant="699" id="HPi-T7-RtU"/>
-                                            <constraint firstItem="x1I-aX-SNO" firstAttribute="top" secondItem="RUf-FZ-n7u" secondAttribute="top" constant="1189" id="Svy-F4-fj4"/>
+                                            <constraint firstAttribute="trailing" secondItem="AKf-lm-9gV" secondAttribute="trailing" id="Jma-Ts-T4c"/>
+                                            <constraint firstItem="MVj-Iw-CaR" firstAttribute="top" secondItem="RUf-FZ-n7u" secondAttribute="top" constant="872" id="PHW-kH-qes"/>
+                                            <constraint firstItem="x1I-aX-SNO" firstAttribute="leading" secondItem="RUf-FZ-n7u" secondAttribute="leading" id="QvC-8A-Rev"/>
+                                            <constraint firstItem="AKf-lm-9gV" firstAttribute="leading" secondItem="RUf-FZ-n7u" secondAttribute="leading" id="UZX-4d-QrI"/>
                                             <constraint firstAttribute="trailing" secondItem="MVj-Iw-CaR" secondAttribute="trailing" id="UfT-k3-H9U"/>
+                                            <constraint firstAttribute="trailing" secondItem="MVj-Iw-CaR" secondAttribute="trailing" id="Vb1-Os-MH4"/>
                                             <constraint firstItem="x1I-aX-SNO" firstAttribute="leading" secondItem="RUf-FZ-n7u" secondAttribute="leading" id="WiT-AN-MgM"/>
                                             <constraint firstAttribute="height" constant="1500" id="XFy-2w-zJV"/>
-                                            <constraint firstItem="MVj-Iw-CaR" firstAttribute="top" secondItem="RUf-FZ-n7u" secondAttribute="top" constant="931" id="YGT-yw-sKt"/>
+                                            <constraint firstAttribute="trailing" secondItem="x1I-aX-SNO" secondAttribute="trailing" id="Zen-Ix-2st"/>
                                             <constraint firstItem="Jrq-Nk-n2Z" firstAttribute="leading" secondItem="RUf-FZ-n7u" secondAttribute="leading" id="daK-we-zrg"/>
-                                            <constraint firstItem="x1I-aX-SNO" firstAttribute="top" secondItem="RUf-FZ-n7u" secondAttribute="top" constant="1189" id="f0v-3O-iHe"/>
                                             <constraint firstItem="MVj-Iw-CaR" firstAttribute="leading" secondItem="RUf-FZ-n7u" secondAttribute="leading" id="f1G-Wb-SpM"/>
-                                            <constraint firstItem="Jrq-Nk-n2Z" firstAttribute="top" secondItem="RUf-FZ-n7u" secondAttribute="top" constant="465" id="hkI-wq-9X4"/>
+                                            <constraint firstItem="AKf-lm-9gV" firstAttribute="top" secondItem="RUf-FZ-n7u" secondAttribute="top" constant="660" id="hef-82-Ake"/>
                                             <constraint firstItem="AKf-lm-9gV" firstAttribute="leading" secondItem="RUf-FZ-n7u" secondAttribute="leading" id="kUv-oJ-82S"/>
                                             <constraint firstAttribute="trailing" secondItem="AKf-lm-9gV" secondAttribute="trailing" id="mkO-2s-3B1"/>
-                                            <constraint firstItem="x1I-aX-SNO" firstAttribute="top" secondItem="RUf-FZ-n7u" secondAttribute="top" constant="1189" id="rBZ-Hg-fSu"/>
+                                            <constraint firstItem="Jrq-Nk-n2Z" firstAttribute="top" secondItem="RUf-FZ-n7u" secondAttribute="top" constant="448" id="vEj-BM-b5w"/>
+                                            <constraint firstItem="Jrq-Nk-n2Z" firstAttribute="leading" secondItem="RUf-FZ-n7u" secondAttribute="leading" id="yLi-4r-eEg"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -1969,7 +1977,6 @@
                             <constraint firstItem="DMI-Zd-yjB" firstAttribute="leading" secondItem="EUf-gN-72i" secondAttribute="leading" id="fCv-4t-K7e"/>
                         </constraints>
                     </view>
-                    <size key="freeformSize" width="414" height="1200"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Us2-qS-1gr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2301,7 +2308,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Crz-4Z-cqN"/>
+        <segue reference="LeA-4o-vzd"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="CM1" width="733" height="1071"/>
