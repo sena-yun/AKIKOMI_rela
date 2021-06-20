@@ -39,18 +39,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mIa-5c-ETn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3046" y="629"/>
+            <point key="canvasLocation" x="-3281" y="575"/>
         </scene>
         <!--Library-->
         <scene sceneID="o1m-rX-EK2">
             <objects>
                 <viewController id="HWE-tw-Qyd" customClass="Library" customModule="AKIKOMI_REAL" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qma-K5-cHq">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1246"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1546"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="doW-hV-z2j">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="1246"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1546"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tpd-cP-7Gv" userLabel="ContentView">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1600"/>
@@ -164,7 +164,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aaQ-Xd-YiH">
                                                 <rect key="frame" x="19" y="752" width="376" height="275"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                                <string key="text">　This is the library on the 4th floor of the South Building. The library is divided into two levels. There are two projectors on one level and various types of tables and chairs. On the ground floor you are allowed to work on tasks while talking to your friends. Many engineering books are stored on the 2nd floor, and you can borrow them freely if you have a student ID card. In addition, private language is prohibited on the 2nd floor, and many people who want to concentrate on studying use it.</string>
+                                                <mutableString key="text">　This is the library on the 4th floor of the South Building. The library is divided into two levels. There are two projectors on first floor and various types of tables and chairs. At first floor you are allowed to work on tasks while talking to your friends. On the 2nd floor, there are many engineering books are stored , and you can borrow them freely if you have a student ID card. In addition, talking is prohibited on the 2nd floor reasons as student who want to concentrate on studying use it.</mutableString>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -256,7 +256,7 @@
                             <constraint firstItem="doW-hV-z2j" firstAttribute="trailing" secondItem="tgN-ej-7Os" secondAttribute="trailing" id="xMl-6U-7LV"/>
                         </constraints>
                     </view>
-                    <size key="freeformSize" width="414" height="1300"/>
+                    <size key="freeformSize" width="414" height="1600"/>
                     <connections>
                         <outlet property="barChartViewLibrary" destination="cZF-e0-75C" id="7q8-Ov-IEh"/>
                         <outlet property="libraryCircle" destination="PdJ-Xp-mNr" id="Q1A-hw-ffV"/>
@@ -374,7 +374,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KTq-Gw-Ij5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="86.956521739130437" y="-871.20535714285711"/>
+            <point key="canvasLocation" x="125" y="-1167"/>
         </scene>
         <!--Map-->
         <scene sceneID="vhc-S1-dp9">
@@ -399,7 +399,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uAs-tM-WwN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-584" y="-871"/>
+            <point key="canvasLocation" x="-675" y="-1167"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Di4-7P-KqN">
@@ -418,18 +418,18 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lb9-c2-Tc1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-584" y="-1646"/>
+            <point key="canvasLocation" x="-584" y="-2158"/>
         </scene>
         <!--Home-->
         <scene sceneID="h07-MR-oGL">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="nx4-0m-JQx" customClass="ViewController" customModule="AKIKOMI_REAL" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ymT-UT-Mie">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DMI-Zd-yjB">
-                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="1456"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RUf-FZ-n7u" userLabel="ControlView">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
@@ -597,7 +597,7 @@
                                                 <rect key="frame" x="157" y="402" width="100" height="24"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
-                                                <color key="textColor" systemColor="systemGreenColor"/>
+                                                <color key="textColor" systemColor="systemOrangeColor"/>
                                                 <nil key="highlightedColor"/>
                                                 <color key="shadowColor" systemColor="systemGray3Color"/>
                                                 <size key="shadowOffset" width="1" height="2"/>
@@ -643,6 +643,9 @@
                                                                     </userDefinedRuntimeAttribute>
                                                                     <userDefinedRuntimeAttribute type="color" keyPath="emptyLineColor">
                                                                         <color key="value" systemColor="systemGray6Color"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="progressStrokeColor">
+                                                                        <color key="value" systemColor="systemIndigoColor"/>
                                                                     </userDefinedRuntimeAttribute>
                                                                 </userDefinedRuntimeAttributes>
                                                             </view>
@@ -704,6 +707,9 @@
                                                                     <userDefinedRuntimeAttribute type="color" keyPath="emptyLineColor">
                                                                         <color key="value" systemColor="systemGray6Color"/>
                                                                     </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="progressStrokeColor">
+                                                                        <color key="value" systemColor="systemIndigoColor"/>
+                                                                    </userDefinedRuntimeAttribute>
                                                                 </userDefinedRuntimeAttributes>
                                                             </view>
                                                         </subviews>
@@ -764,6 +770,9 @@
                                                                     <userDefinedRuntimeAttribute type="color" keyPath="emptyLineColor">
                                                                         <color key="value" systemColor="systemGray6Color"/>
                                                                     </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="progressStrokeColor">
+                                                                        <color key="value" systemColor="systemIndigoColor"/>
+                                                                    </userDefinedRuntimeAttribute>
                                                                 </userDefinedRuntimeAttributes>
                                                             </view>
                                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qJD-DD-wFw" customClass="MBCircularProgressBarView">
@@ -801,6 +810,9 @@
                                                                     </userDefinedRuntimeAttribute>
                                                                     <userDefinedRuntimeAttribute type="color" keyPath="emptyLineColor">
                                                                         <color key="value" systemColor="systemGray6Color"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="progressStrokeColor">
+                                                                        <color key="value" systemColor="systemIndigoColor"/>
                                                                     </userDefinedRuntimeAttribute>
                                                                 </userDefinedRuntimeAttributes>
                                                             </view>
@@ -890,6 +902,9 @@
                                                                     <userDefinedRuntimeAttribute type="color" keyPath="emptyLineColor">
                                                                         <color key="value" systemColor="systemGray6Color"/>
                                                                     </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="progressStrokeColor">
+                                                                        <color key="value" systemColor="systemIndigoColor"/>
+                                                                    </userDefinedRuntimeAttribute>
                                                                 </userDefinedRuntimeAttributes>
                                                             </view>
                                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f30-zc-UPj" customClass="MBCircularProgressBarView">
@@ -928,6 +943,9 @@
                                                                     <userDefinedRuntimeAttribute type="color" keyPath="emptyLineColor">
                                                                         <color key="value" systemColor="systemGray6Color"/>
                                                                     </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="progressStrokeColor">
+                                                                        <color key="value" systemColor="systemIndigoColor"/>
+                                                                    </userDefinedRuntimeAttribute>
                                                                 </userDefinedRuntimeAttributes>
                                                             </view>
                                                         </subviews>
@@ -947,12 +965,26 @@
                                                 </constraints>
                                             </scrollView>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RL8-ZT-wy5">
-                                                <rect key="frame" x="8" y="-9" width="100" height="53"/>
+                                                <rect key="frame" x="306" y="-9" width="100" height="53"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                                 <connections>
                                                     <segue destination="PsF-z6-KzC" kind="modal" id="3ln-h8-cW8"/>
                                                 </connections>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.27000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="AkiKomi" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XNO-RX-Y9C">
+                                                <rect key="frame" x="21" y="13" width="371" height="67"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="70"/>
+                                                <color key="textColor" systemColor="systemGreenColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.27000000000000002" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="KUAS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uwh-OS-AeD">
+                                                <rect key="frame" x="200" y="427" width="220" height="80"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="68"/>
+                                                <color key="textColor" systemColor="systemGreenColor"/>
+                                                <color key="highlightedColor" systemColor="systemGreenColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
@@ -999,10 +1031,11 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" selectedImage="house" id="voB-Yr-9bj"/>
+                    <size key="freeformSize" width="414" height="1500"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Us2-qS-1gr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1271" y="-871"/>
+            <point key="canvasLocation" x="-1429" y="-1219"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="eJc-QY-gsf">
@@ -1056,18 +1089,18 @@
                     </userDefinedRuntimeAttributes>
                 </view>
             </objects>
-            <point key="canvasLocation" x="-3046" y="-44"/>
+            <point key="canvasLocation" x="-3280" y="-145"/>
         </scene>
         <!--s311-->
         <scene sceneID="qCD-Vx-yi4">
             <objects>
                 <viewController id="58d-nQ-VOF" customClass="s311" customModule="AKIKOMI_REAL" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jfK-Ce-usX">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1246"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1546"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eeu-Ff-KEs">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="1246"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1546"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iD9-BY-dKo" userLabel="ContentView">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1600"/>
@@ -1273,7 +1306,7 @@
                             <constraint firstItem="eeu-Ff-KEs" firstAttribute="top" secondItem="big-jY-s9w" secondAttribute="top" id="kmp-Zh-YBk"/>
                         </constraints>
                     </view>
-                    <size key="freeformSize" width="414" height="1300"/>
+                    <size key="freeformSize" width="414" height="1600"/>
                     <connections>
                         <outlet property="barChartViews311" destination="0sc-JW-Dor" id="wMn-bc-VYD"/>
                         <outlet property="s311Circle" destination="57I-8P-TTv" id="oBQ-nr-KXF"/>
@@ -1289,11 +1322,11 @@
             <objects>
                 <viewController id="vlx-NW-r1D" customClass="Advanced_Hall" customModule="AKIKOMI_REAL" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7nE-os-PFf">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1246"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1546"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jkr-zB-qsG">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="1246"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1546"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OJQ-Lh-R6k" userLabel="ContentView">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1600"/>
@@ -1499,7 +1532,7 @@
                             <constraint firstItem="Jkr-zB-qsG" firstAttribute="leading" secondItem="mA5-XC-KEG" secondAttribute="leading" id="zxM-Sq-mL0"/>
                         </constraints>
                     </view>
-                    <size key="freeformSize" width="414" height="1300"/>
+                    <size key="freeformSize" width="414" height="1600"/>
                     <connections>
                         <outlet property="AdvancedHallCircle" destination="H75-y8-5Bd" id="8fJ-qU-mia"/>
                         <outlet property="barChartViewAdvancedHall" destination="EQc-eI-jQr" id="Rgh-bD-H8H"/>
@@ -1515,11 +1548,11 @@
             <objects>
                 <viewController id="dqQ-WF-440" customClass="Saganohall" customModule="AKIKOMI_REAL" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jn6-Yy-sJK">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1246"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1546"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GKB-q3-fjw">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="1246"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1546"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ite-Lf-dah" userLabel="ContentView">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1600"/>
@@ -1725,7 +1758,7 @@
                             <constraint firstItem="GKB-q3-fjw" firstAttribute="leading" secondItem="v9k-wB-Ywn" secondAttribute="leading" id="v1d-JP-wK8"/>
                         </constraints>
                     </view>
-                    <size key="freeformSize" width="414" height="1300"/>
+                    <size key="freeformSize" width="414" height="1600"/>
                     <connections>
                         <outlet property="SaganoHallCircle" destination="kAd-XD-jaJ" id="DAD-Tn-Hjv"/>
                         <outlet property="barChartViewSaganohall" destination="hRn-mB-mUr" id="6kO-xj-KLu"/>
@@ -1741,11 +1774,11 @@
             <objects>
                 <viewController id="vKb-KT-fYa" customClass="South_Building" customModule="AKIKOMI_REAL" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qVH-RT-04M">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1246"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1946"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sSR-Gg-GJG">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="1246"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1946"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yoX-3q-tmQ" userLabel="ContentView">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
@@ -1966,7 +1999,7 @@
                             <constraint firstItem="sSR-Gg-GJG" firstAttribute="trailing" secondItem="CsZ-uN-gRh" secondAttribute="trailing" id="vC5-3H-bYr"/>
                         </constraints>
                     </view>
-                    <size key="freeformSize" width="414" height="1300"/>
+                    <size key="freeformSize" width="414" height="2000"/>
                     <connections>
                         <outlet property="SouthBuildingCircle" destination="hS5-Ve-KEH" id="el5-IA-7Z4"/>
                         <outlet property="barChartViewSouthBuilding" destination="ByT-81-Mrr" id="snX-13-onv"/>
@@ -1975,18 +2008,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bp3-rM-nVn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-230" y="90"/>
+            <point key="canvasLocation" x="-238" y="224"/>
         </scene>
         <!--s312-->
         <scene sceneID="9N7-Ap-f8i">
             <objects>
                 <viewController id="rmc-zD-u06" customClass="s312" customModule="AKIKOMI_REAL" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cqg-eH-EHH">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1246"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1546"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XLk-dm-P90">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="1246"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1546"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cUd-wo-oRD" userLabel="ContentView">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1600"/>
@@ -2192,7 +2225,7 @@
                             <constraint firstItem="XLk-dm-P90" firstAttribute="trailing" secondItem="paR-Hd-p00" secondAttribute="trailing" id="vow-fS-dzS"/>
                         </constraints>
                     </view>
-                    <size key="freeformSize" width="414" height="1300"/>
+                    <size key="freeformSize" width="414" height="1600"/>
                     <connections>
                         <outlet property="barChartViews312" destination="I21-u2-LpA" id="fd7-Az-7j9"/>
                         <outlet property="s312Circle" destination="2VF-oR-5Vc" id="Rfa-Qj-H3z"/>
@@ -2205,13 +2238,13 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="x53-pL-F8i"/>
-        <segue reference="8U2-Wg-3Su"/>
-        <segue reference="jw6-Lk-Nlh"/>
-        <segue reference="eHL-2B-B8s"/>
-        <segue reference="gfo-KV-Vi1"/>
-        <segue reference="YIu-dX-nzQ"/>
-        <segue reference="yHs-qV-yIN"/>
+        <segue reference="ZsL-2V-Ja9"/>
+        <segue reference="uVQ-fU-m8c"/>
+        <segue reference="dc2-Fu-6dM"/>
+        <segue reference="EPJ-Av-81B"/>
+        <segue reference="kQk-f4-CvO"/>
+        <segue reference="qXx-Qs-rcF"/>
+        <segue reference="Hgr-gh-8Ya"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="CM1" width="733" height="1071"/>
@@ -2245,6 +2278,9 @@
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

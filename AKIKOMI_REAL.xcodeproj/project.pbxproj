@@ -62,6 +62,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19D32805267F2B10004150A1 /* Rooms */ = {
+			isa = PBXGroup;
+			children = (
+				1979494E266F69E200CFE7A5 /* Library.swift */,
+				19794950266F6AD300CFE7A5 /* s311.swift */,
+				19794952266F6B2200CFE7A5 /* Saganohall.swift */,
+				19794954266F6B5D00CFE7A5 /* Advanced_Hall.swift */,
+				19794956266F6BCC00CFE7A5 /* South_Building.swift */,
+				19794958266F6C1800CFE7A5 /* s312.swift */,
+			);
+			path = Rooms;
+			sourceTree = "<group>";
+		};
+		19D32806267F2B91004150A1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				192D2C1F26720A1700DBB021 /* HomeNavigationView.swift */,
+				3309334D263BFD6100E31AF1 /* ViewController.swift */,
+				3309334F263BFD6100E31AF1 /* Main.storyboard */,
+				19D32801267EF156004150A1 /* Favorite.swift */,
+				19D32803267EF16B004150A1 /* MapView.swift */,
+				33093354263BFD6500E31AF1 /* LaunchScreen.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		3309333D263BFD6100E31AF1 = {
 			isa = PBXGroup;
 			children = (
@@ -83,23 +109,13 @@
 		33093348263BFD6100E31AF1 /* AKIKOMI_REAL */ = {
 			isa = PBXGroup;
 			children = (
+				19D32806267F2B91004150A1 /* Main */,
+				19D32805267F2B10004150A1 /* Rooms */,
 				33093349263BFD6100E31AF1 /* AppDelegate.swift */,
 				3309334B263BFD6100E31AF1 /* SceneDelegate.swift */,
-				3309334D263BFD6100E31AF1 /* ViewController.swift */,
-				3309334F263BFD6100E31AF1 /* Main.storyboard */,
 				33093352263BFD6500E31AF1 /* Assets.xcassets */,
-				33093354263BFD6500E31AF1 /* LaunchScreen.storyboard */,
 				33093357263BFD6500E31AF1 /* Info.plist */,
 				33A19109265D076800FC614A /* InfoViewController.swift */,
-				1979494E266F69E200CFE7A5 /* Library.swift */,
-				19794950266F6AD300CFE7A5 /* s311.swift */,
-				19794952266F6B2200CFE7A5 /* Saganohall.swift */,
-				19794954266F6B5D00CFE7A5 /* Advanced_Hall.swift */,
-				19794956266F6BCC00CFE7A5 /* South_Building.swift */,
-				19794958266F6C1800CFE7A5 /* s312.swift */,
-				192D2C1F26720A1700DBB021 /* HomeNavigationView.swift */,
-				19D32801267EF156004150A1 /* Favorite.swift */,
-				19D32803267EF16B004150A1 /* MapView.swift */,
 			);
 			path = AKIKOMI_REAL;
 			sourceTree = "<group>";
