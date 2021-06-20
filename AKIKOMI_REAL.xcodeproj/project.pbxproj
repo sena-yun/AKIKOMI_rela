@@ -14,6 +14,8 @@
 		19794955266F6B5D00CFE7A5 /* Advanced_Hall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19794954266F6B5D00CFE7A5 /* Advanced_Hall.swift */; };
 		19794957266F6BCC00CFE7A5 /* South_Building.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19794956266F6BCC00CFE7A5 /* South_Building.swift */; };
 		19794959266F6C1800CFE7A5 /* s312.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19794958266F6C1800CFE7A5 /* s312.swift */; };
+		19D32802267EF156004150A1 /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D32801267EF156004150A1 /* Favorite.swift */; };
+		19D32804267EF16B004150A1 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D32803267EF16B004150A1 /* MapView.swift */; };
 		3309334A263BFD6100E31AF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33093349263BFD6100E31AF1 /* AppDelegate.swift */; };
 		3309334C263BFD6100E31AF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3309334B263BFD6100E31AF1 /* SceneDelegate.swift */; };
 		3309334E263BFD6100E31AF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3309334D263BFD6100E31AF1 /* ViewController.swift */; };
@@ -32,6 +34,8 @@
 		19794954266F6B5D00CFE7A5 /* Advanced_Hall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advanced_Hall.swift; sourceTree = "<group>"; };
 		19794956266F6BCC00CFE7A5 /* South_Building.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = South_Building.swift; sourceTree = "<group>"; };
 		19794958266F6C1800CFE7A5 /* s312.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = s312.swift; sourceTree = "<group>"; };
+		19D32801267EF156004150A1 /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
+		19D32803267EF16B004150A1 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		33093346263BFD6100E31AF1 /* AKIKOMI_REAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKIKOMI_REAL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33093349263BFD6100E31AF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3309334B263BFD6100E31AF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +98,8 @@
 				19794956266F6BCC00CFE7A5 /* South_Building.swift */,
 				19794958266F6C1800CFE7A5 /* s312.swift */,
 				192D2C1F26720A1700DBB021 /* HomeNavigationView.swift */,
+				19D32801267EF156004150A1 /* Favorite.swift */,
+				19D32803267EF16B004150A1 /* MapView.swift */,
 			);
 			path = AKIKOMI_REAL;
 			sourceTree = "<group>";
@@ -233,11 +239,13 @@
 				19794951266F6AD300CFE7A5 /* s311.swift in Sources */,
 				19794957266F6BCC00CFE7A5 /* South_Building.swift in Sources */,
 				3309334A263BFD6100E31AF1 /* AppDelegate.swift in Sources */,
+				19D32804267EF16B004150A1 /* MapView.swift in Sources */,
 				1979494F266F69E200CFE7A5 /* Library.swift in Sources */,
 				19794955266F6B5D00CFE7A5 /* Advanced_Hall.swift in Sources */,
 				192D2C2026720A1700DBB021 /* HomeNavigationView.swift in Sources */,
 				19794959266F6C1800CFE7A5 /* s312.swift in Sources */,
 				33A1910A265D076800FC614A /* InfoViewController.swift in Sources */,
+				19D32802267EF156004150A1 /* Favorite.swift in Sources */,
 				3309334C263BFD6100E31AF1 /* SceneDelegate.swift in Sources */,
 				19794953266F6B2200CFE7A5 /* Saganohall.swift in Sources */,
 			);
