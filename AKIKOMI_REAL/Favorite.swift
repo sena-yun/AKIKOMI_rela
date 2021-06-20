@@ -23,6 +23,9 @@ class Favorite:  UIViewController ,UITableViewDataSource, UITableViewDelegate {
            "s312","Sagano Hall",
            "Library","South Building"
            ]
+        let floorArray: NSArray = [
+            "1","3","3","1","4","-"
+            ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,11 +54,11 @@ class Favorite:  UIViewController ,UITableViewDataSource, UITableViewDelegate {
             
             // Tag番号 ２ で UILabel インスタンスの生成
             let label1 = cell.viewWithTag(2) as! UILabel
-            label1.text = "No." + String(indexPath.row + 1)
+            label1.text = String(describing: label2Array[indexPath.row])
             
             // Tag番号 ３ で UILabel インスタンスの生成
             let label2 = cell.viewWithTag(3) as! UILabel
-            label2.text = String(describing: label2Array[indexPath.row])
+            label2.text = "This room is at " + String(describing: floorArray[indexPath.row]) + "st floor"
             
             return cell
     }
