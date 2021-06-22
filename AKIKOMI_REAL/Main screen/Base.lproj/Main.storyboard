@@ -164,7 +164,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aaQ-Xd-YiH">
                                                 <rect key="frame" x="19" y="752" width="376" height="275"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">　This is the library on the 4th floor of the South Building. The library is divided into two levels. There are two projectors on first floor and various types of tables and chairs. At first floor you are allowed to work on tasks while talking to your friends. On the 2nd floor, there are many engineering books are stored , and you can borrow them freely if you have a student ID card. In addition, talking is prohibited on the 2nd floor reasons as student who want to concentrate on studying use it.</mutableString>
+                                                <string key="text">　This is the library on the 4th floor of the South Building. The library is divided into two levels. There are two projectors on first floor and various types of tables and chairs. At first floor you are allowed to work on tasks while talking to your friends. On the 2nd floor, there are many engineering books are stored , and you can borrow them freely if you have a student ID card. In addition, talking is prohibited on the 2nd floor reasons as student who want to concentrate on studying use it.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -384,7 +384,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="CXE-nY-L2e">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CXE-nY-L2e">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
@@ -394,7 +394,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" image="mappin.and.ellipse" catalog="system" selectedImage="mappin.and.ellipse" id="mTw-bp-fSn"/>
                     <connections>
-                        <outlet property="mapView" destination="CXE-nY-L2e" id="PlC-p8-31p"/>
+                        <outlet property="map" destination="CXE-nY-L2e" id="VH5-dI-U3T"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uAs-tM-WwN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -646,6 +646,9 @@
                                                                     </userDefinedRuntimeAttribute>
                                                                     <userDefinedRuntimeAttribute type="color" keyPath="progressStrokeColor">
                                                                         <color key="value" systemColor="systemIndigoColor"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="fontColor">
+                                                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     </userDefinedRuntimeAttribute>
                                                                 </userDefinedRuntimeAttributes>
                                                             </view>
@@ -2238,13 +2241,13 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="ZsL-2V-Ja9"/>
-        <segue reference="uVQ-fU-m8c"/>
-        <segue reference="dc2-Fu-6dM"/>
-        <segue reference="EPJ-Av-81B"/>
-        <segue reference="kQk-f4-CvO"/>
-        <segue reference="qXx-Qs-rcF"/>
-        <segue reference="Hgr-gh-8Ya"/>
+        <segue reference="x53-pL-F8i"/>
+        <segue reference="8U2-Wg-3Su"/>
+        <segue reference="jw6-Lk-Nlh"/>
+        <segue reference="eHL-2B-B8s"/>
+        <segue reference="gfo-KV-Vi1"/>
+        <segue reference="YIu-dX-nzQ"/>
+        <segue reference="yHs-qV-yIN"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="CM1" width="733" height="1071"/>
