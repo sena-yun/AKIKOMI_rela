@@ -12,5 +12,6 @@ target 'AKIKOMI_REAL' do
   # Pods for AKIKOMI_REAL
 
   pod "MBCircularProgressBar"
+  pod "Sandbox"
 end
 
