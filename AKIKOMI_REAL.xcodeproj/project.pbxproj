@@ -64,7 +64,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		19D32805267F2B10004150A1 /* Rooms */ = {
+		19D32805267F2B10004150A1 /* Sub screen */ = {
 			isa = PBXGroup;
 			children = (
 				1979494E266F69E200CFE7A5 /* Library.swift */,
@@ -74,10 +74,10 @@
 				19794956266F6BCC00CFE7A5 /* South_Building.swift */,
 				19794958266F6C1800CFE7A5 /* s312.swift */,
 			);
-			path = Rooms;
+			path = "Sub screen";
 			sourceTree = "<group>";
 		};
-		19D32806267F2B91004150A1 /* Main */ = {
+		19D32806267F2B91004150A1 /* Main screen */ = {
 			isa = PBXGroup;
 			children = (
 				192D2C1F26720A1700DBB021 /* HomeNavigationView.swift */,
@@ -88,7 +88,7 @@
 				19D32803267EF16B004150A1 /* MapView.swift */,
 				33093354263BFD6500E31AF1 /* LaunchScreen.storyboard */,
 			);
-			path = Main;
+			path = "Main screen";
 			sourceTree = "<group>";
 		};
 		3309333D263BFD6100E31AF1 = {
@@ -112,8 +112,8 @@
 		33093348263BFD6100E31AF1 /* AKIKOMI_REAL */ = {
 			isa = PBXGroup;
 			children = (
-				19D32806267F2B91004150A1 /* Main */,
-				19D32805267F2B10004150A1 /* Rooms */,
+				19D32806267F2B91004150A1 /* Main screen */,
+				19D32805267F2B10004150A1 /* Sub screen */,
 				33093349263BFD6100E31AF1 /* AppDelegate.swift */,
 				3309334B263BFD6100E31AF1 /* SceneDelegate.swift */,
 				33093352263BFD6500E31AF1 /* Assets.xcassets */,
@@ -326,8 +326,10 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 86F9L3N67Z;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -387,8 +389,10 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 86F9L3N67Z;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;

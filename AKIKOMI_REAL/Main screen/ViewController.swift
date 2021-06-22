@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        self.overrideUserInterfaceStyle = .light
     }
     
     @IBAction func URLcm1(_ sender: UIButton) {

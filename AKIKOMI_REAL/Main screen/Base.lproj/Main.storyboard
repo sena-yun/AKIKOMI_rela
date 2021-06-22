@@ -398,7 +398,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="CXE-nY-L2e">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CXE-nY-L2e">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
@@ -408,7 +408,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" image="mappin.and.ellipse" catalog="system" selectedImage="mappin.and.ellipse" id="mTw-bp-fSn"/>
                     <connections>
-                        <outlet property="mapView" destination="CXE-nY-L2e" id="PlC-p8-31p"/>
+                        <outlet property="map" destination="CXE-nY-L2e" id="VH5-dI-U3T"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uAs-tM-WwN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -661,6 +661,9 @@
                                                                     </userDefinedRuntimeAttribute>
                                                                     <userDefinedRuntimeAttribute type="color" keyPath="progressStrokeColor">
                                                                         <color key="value" systemColor="systemIndigoColor"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="fontColor">
+                                                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     </userDefinedRuntimeAttribute>
                                                                 </userDefinedRuntimeAttributes>
                                                             </view>
@@ -1000,6 +1003,11 @@
                                                 <color key="textColor" systemColor="systemGreenColor"/>
                                                 <color key="highlightedColor" systemColor="systemGreenColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8W6-q7-E9d">
+                                                <rect key="frame" x="287" y="396" width="46" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>

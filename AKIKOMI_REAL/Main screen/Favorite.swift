@@ -29,7 +29,8 @@ class Favorite:  UIViewController ,UITableViewDataSource, UITableViewDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        self.overrideUserInterfaceStyle = .light
     }
     
     //Table Viewのセルの数を指定
