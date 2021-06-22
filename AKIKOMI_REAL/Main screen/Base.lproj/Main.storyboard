@@ -379,7 +379,6 @@
         <!--SearchV Iew-->
         <scene sceneID="QhP-la-36W">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XbP-f6-DIu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController id="lwE-I6-LGS" customClass="SearchVIew" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="magnifyingglass" catalog="system" id="52d-We-H3d"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="upT-lC-8a7">
@@ -387,6 +386,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XbP-f6-DIu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="974" y="-1167"/>
         </scene>

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		192D2C2026720A1700DBB021 /* HomeNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192D2C1F26720A1700DBB021 /* HomeNavigationView.swift */; };
+		1978644026819D54009A40FD /* SaerchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1978643F26819D54009A40FD /* SaerchView.swift */; };
 		1979494F266F69E200CFE7A5 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1979494E266F69E200CFE7A5 /* Library.swift */; };
 		19794951266F6AD300CFE7A5 /* s311.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19794950266F6AD300CFE7A5 /* s311.swift */; };
 		19794953266F6B2200CFE7A5 /* Saganohall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19794952266F6B2200CFE7A5 /* Saganohall.swift */; };
@@ -22,13 +23,13 @@
 		33093351263BFD6100E31AF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3309334F263BFD6100E31AF1 /* Main.storyboard */; };
 		33093353263BFD6500E31AF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33093352263BFD6500E31AF1 /* Assets.xcassets */; };
 		33093356263BFD6500E31AF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33093354263BFD6500E31AF1 /* LaunchScreen.storyboard */; };
-		336A2F8A2680A6DD00EFE6D6 /* Searchbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336A2F892680A6DD00EFE6D6 /* Searchbar.swift */; };
 		33A1910A265D076800FC614A /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A19109265D076800FC614A /* InfoViewController.swift */; };
 		66242B0576E73E69B4B29864 /* Pods_AKIKOMI_REAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9907A865F32B209F5760A46A /* Pods_AKIKOMI_REAL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		192D2C1F26720A1700DBB021 /* HomeNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationView.swift; sourceTree = "<group>"; };
+		1978643F26819D54009A40FD /* SaerchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaerchView.swift; sourceTree = "<group>"; };
 		1979494E266F69E200CFE7A5 /* Library.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
 		19794950266F6AD300CFE7A5 /* s311.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = s311.swift; sourceTree = "<group>"; };
 		19794952266F6B2200CFE7A5 /* Saganohall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saganohall.swift; sourceTree = "<group>"; };
@@ -45,7 +46,6 @@
 		33093352263BFD6500E31AF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33093355263BFD6500E31AF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33093357263BFD6500E31AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		336A2F892680A6DD00EFE6D6 /* Searchbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Searchbar.swift; sourceTree = "<group>"; };
 		33A19109265D076800FC614A /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		47C0B4BE77A8A0E22B17DC3E /* Pods-AKIKOMI_REAL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKIKOMI_REAL.release.xcconfig"; path = "Target Support Files/Pods-AKIKOMI_REAL/Pods-AKIKOMI_REAL.release.xcconfig"; sourceTree = "<group>"; };
 		58B5DB5A51FCFB66F1AB8D05 /* Pods-AKIKOMI_REAL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKIKOMI_REAL.debug.xcconfig"; path = "Target Support Files/Pods-AKIKOMI_REAL/Pods-AKIKOMI_REAL.debug.xcconfig"; sourceTree = "<group>"; };
@@ -81,12 +81,12 @@
 			isa = PBXGroup;
 			children = (
 				192D2C1F26720A1700DBB021 /* HomeNavigationView.swift */,
-				336A2F892680A6DD00EFE6D6 /* Searchbar.swift */,
 				3309334D263BFD6100E31AF1 /* ViewController.swift */,
 				3309334F263BFD6100E31AF1 /* Main.storyboard */,
 				19D32801267EF156004150A1 /* Favorite.swift */,
 				19D32803267EF16B004150A1 /* MapView.swift */,
 				33093354263BFD6500E31AF1 /* LaunchScreen.storyboard */,
+				1978643F26819D54009A40FD /* SaerchView.swift */,
 			);
 			path = "Main screen";
 			sourceTree = "<group>";
@@ -260,12 +260,12 @@
 				3309334A263BFD6100E31AF1 /* AppDelegate.swift in Sources */,
 				19D32804267EF16B004150A1 /* MapView.swift in Sources */,
 				1979494F266F69E200CFE7A5 /* Library.swift in Sources */,
+				1978644026819D54009A40FD /* SaerchView.swift in Sources */,
 				19794955266F6B5D00CFE7A5 /* Advanced_Hall.swift in Sources */,
 				192D2C2026720A1700DBB021 /* HomeNavigationView.swift in Sources */,
 				19794959266F6C1800CFE7A5 /* s312.swift in Sources */,
 				33A1910A265D076800FC614A /* InfoViewController.swift in Sources */,
 				19D32802267EF156004150A1 /* Favorite.swift in Sources */,
-				336A2F8A2680A6DD00EFE6D6 /* Searchbar.swift in Sources */,
 				3309334C263BFD6100E31AF1 /* SceneDelegate.swift in Sources */,
 				19794953266F6B2200CFE7A5 /* Saganohall.swift in Sources */,
 			);
